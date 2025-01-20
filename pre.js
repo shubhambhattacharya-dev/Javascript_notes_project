@@ -1,19 +1,24 @@
-//today again we are discuss about datatype but further more in details 
-// data type is divided into 1.premitive (predefined datatype) 2.non-premitive(user have to define it when user work on them)
-// premitive datatype are 1.number 2.string 3.null 4.undefined 5.symbol 6.boolean(true and false)
-//non-premitive datatype are divided in OBJECT . and OBJECT are also divded into sub topics are array,functions,object itself too.
+//primitive data type
+ 
+                                                           //number
+let balance = 120;//this is number
+// a method that help to know what type its =typeof()
+console.log(typeof(balance)); // datatype-number
+console.log(balance); // datatype-number
+//another way: for - complex data type,non-primitive data type
 
+let anotherBalance= new Number(120);
+console.log(anotherBalance);// value with data type and its an object
+// for only value use - valueof()  method;
+console.log(anotherBalance.valueOf());// its gives only value 
 
-//typeof()- to know the type of datatype
+// now is the main question what is the main difference of balance and anotherBalance :
+// balance is - number (datatype)
+//anotherBalance is - object (non primitive datatype)
+ console.log(typeof(anotherBalance));// see its an object\
 
-let  balance=120;
-console.log(balance);
-console.log(typeof(balance));
-// its give the typeof method 
+ //every single primitive can also be coverted into non-primitive
+ // every thing in js is an object
+                                                     //boolean
 
-//another way to know datatype
-
-let anotherBalance = new Number(107);
-console.log( anotherBalance);
-// lets find out what's is the difference between balance and anotherBalance:
 
