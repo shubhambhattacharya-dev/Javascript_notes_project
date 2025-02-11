@@ -21,5 +21,15 @@ const text4="hello world";
 console.log(text4.replace("ld","shubham"));
 //6.split
 const text5="shubham kumar bhattacharya";
-console.log(text5.split("kumar"));// is split according to your delimeter . what is delimeter (string.split("here delimeter writen"));
+console.log(text5.split("h"));// is split according to your delimeter . what is delimeter (string.split("here delimeter writen"));
+//7.trime
+text6="           shubham bhatachahujkk                 ";//its trime the extra space at starting and at the ending but not in between or middle 
+console.log(text6.trim());
+//8.toLowercase
+const text7="SHUBHAM BHATTACHARYA";
+console.log(text7.toLowerCase());
+//9.touppercase
+const text8="shubham bhattacharya";
+console.log(text8.toUpperCase());
+//split and slice is good one use in future;
 
